@@ -4,13 +4,19 @@ body{
 }
 
 li{
-    text-decoration: none;
     display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Share:wght@700&display=swap');
+    font-weight:900;
+    font-size: 22px;
     margin-bottom: 15px;
+    margin: 10px;
 }
 
 .main{
+    color: #0000ee;
+}
+
+.contact{
     color: #0000ee;
 }
 
@@ -49,10 +55,6 @@ h1{
     width: fit-content;
 }
 
-h2{
-    font-size: larger;
-}
-
 .britishshorthair{
     display: inline-block;
     height: 280px;
@@ -75,10 +77,6 @@ h2{
     padding: 15px;
     background-color:#b2b3af;
     width: fit-content;
-}
-
-h3{
-    font-size: larger;
 }
 
 .siamese{
@@ -106,10 +104,6 @@ h3{
     width: fit-content;
 }
 
-.h4{
-    font-size: larger;
-}
-
 .scotfold{
     display: inline-block;
     height: 280px;
@@ -132,10 +126,6 @@ h3{
     padding: 15px;
     background-color:#89ce84ab;
     width: fit-content;
-}
-
-h5{
-    font-size: larger;
 }
 
 .siberian{
@@ -161,10 +151,6 @@ h5{
     padding: 15px;
     background-color:#6d3604ad;
     width: fit-content;
-}
-
-h6{
-    font-size: larger;
 }
 
 .bengal{
